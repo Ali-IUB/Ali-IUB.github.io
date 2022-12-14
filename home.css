@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.warrper{
+    border: 3px black solid;
+    width:auto;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+   
+   
+}
+.header{
+    border:0px rgb(4, 13, 34) solid;
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FF0000;
+    
+    display: flex;
+   
+   
+    
+    
+}
+        header img {
+        
+            width: auto;
+            height: auto; 
+            display: flex;   
+        }
+        
+                .name
+                {
+                    font-family:Old English Text MT;
+                     color: rgb(220, 220, 231);
+                        font-size:5em;
+                        margin-left: 5%;
+                        padding:4%;
+                        display: flex;
+                        flex-wrap: wrap;
+                    
+
+                 
+                    
+                }
+.navbar{
+   
+
+    display:contents;
+    -ms-flex-align: center;    
+    border: 1px hsla(0, 100%, 25%, 0.911) solid;
+    width: inherit;
+    height: 60px;
+
+    text-align:center;
+    color: rgb(129, 103, 123);
+    font-weight: bolder;
+    background-color: rgb(15, 189, 116);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    
+   
+
+
+}
+
+        .navbar ul{
+           
+        
+           
+            list-style: none;
+            z-index: 999;
+           
+            
+        }
+            .navbar ul li{
+            
+                margin-inline: 6px;
+                border:1px gray solid ;
+                height:60px;
+                width:130px;
+                display: inline-block;
+                background-color: Tomato;
+                line-height: 60px;
+                border-radius: 18px;
+
+
+            }
+                .navbar ul li a
+                {
+                    text-decoration: none;
+                    color: rgb(240, 253, 255);
+                }
+
+                .navbar ul li a:hover
+                {
+                   color: rgb(212, 20, 14);
+                }
+                    .navbar ul :hover{
+                        background-color: rgb(59, 63, 114);
+                        color: rgb(215, 219, 228);
+                    }
+                            nav li:hover li {
+                                
+                                background-color: rgb(13, 31, 5);
+                                color: rgb(4, 39, 16);
+                                border-radius: 23px;
+                            }
+                        nav li ul{
+                            display: none;
+                        }
+                           nav li:hover ul 
+                           {
+                            display: block;
+
+                            position: absolute;
+                           }
+                           nav li:hover li 
+                           {
+                            float: none;
+                            display: block;
+                            margin-top: 3px;
+                           }
+                    
+                       
+                        
+.slider{
+    
+    width: 1335px;
+    height: 440px;
+    
+    border-radius: 8px;
+    border-radius: 12px;
+
+    display:contents;
+    flex-wrap: wrap;
+
+
+    
+    
+}
+.sec_img{
+    height: 350px;
+    width:auto;
+    display:contents;
+    flex-wrap: wrap;
+    border:5px #FF0000 solid ;
+}
+.section_pic{   
+   
+    width: 40% ;
+    height:350;
+    float: none;
+   
+    
+}
+.video1{
+   height: inherit;
+    width:20%;
+    border: 3px red solid;
+   float:left;
+        
+
+}
+       
+.video2
+{
+    width:15% ;
+
+}
+.video3{
+    width:5%;
+   display: flexbox;
+}
+.footer{
+    border: 4px rebeccapurple solid;
+    height: 140px;
+    width: 100%;
+    float: left;
+
+    text-align:center;
+    color: rgb(0, 68, 255);
+    font-weight: bolder;
+    background-color: rgb(219, 19, 119);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 111px;
+}
+.back{
+    margin-left: 50%;
+    background-color: chocolate;
+    border: 3px black solid;
+    border-radius: 12rem;
+    margin-top: 15px;
+}
